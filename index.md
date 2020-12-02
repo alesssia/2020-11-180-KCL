@@ -12,6 +12,9 @@ startdate: 2020-11-18
 enddate: 2020-12-16        
 instructor: ["Alessia Visconti", "Flavia Flaviani", "Stefania Marcotti"] 
 email: ["fiona.wardle@kcl.ac.uk", "alessia.visconti@kcl.ac.uk","flavia.flaviani@kcl.ac.uk", "stefania.marcotti@kcl.ac.uk"]   
+collaborative_notes_unix_1: "https://pad.carpentries.org/2020_11_16_KCL_UnixI"
+collaborative_notes_unix_2: "https://pad.carpentries.org/25102020_KCL_unix2"
+collaborative_notes_unix_3: "https://pad.carpentries.org/2020_12_02_KCL_unix3"
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -266,12 +269,34 @@ e.g., '2015-06-10-esu'.
 Note we also have a CodiMD (the open-source version of HackMD)
 available at https://codimd.carpentries.org
 {% endcomment %}
-{% if page.collaborative_notes %}
+{% if page.collaborative_notes_unix_1 %}
 <h2 id="collaborative_notes">Collaborative Notes</h2>
 
 <p>
-We will use this <a href="{{ page.collaborative_notes }}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
+We used these collaborative documents for chatting, taking notes, and sharing URLs and bits of code: 
 </p>
+
+<p>
+Unix sessions:
+
+<ul>
+<li><a href="{{ page.collaborative_notes_unix_1 }}">Day 1</a></li>
+<li><a href="{{ page.collaborative_notes_unix_2 }}">Day 2</a></li>
+<li><a href="{{ page.collaborative_notes_unix_3 }}">Day 3</a></li>
+</ul>
+
+</p>
+
+<p>
+GIT sessions:
+
+<ul>
+<li>TBA</li>
+</ul>
+
+</p>
+
+
 <hr/>
 {% endif %}
 
